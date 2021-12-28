@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/hover.css">
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-brand">
+        <img src="./assets/shared/logo.svg" alt="" />
+      </div>
+      <div class="navv">
+          <i class="fas fa-bars fa-2x"></i>
+      </div>
+      <div class="nav-menu">
+        <span class="mobile-nav">
+          <img src="./assets/shared/x.svg" alt="">
+        </span>
+        <ul class="nav-items">
+          <li class="hvr-underline-from-left active home-tab"><span>00</span> <a href="#home">HOME</a></li>
+          <li class="hvr-underline-from-left destination-tab"><span>01</span> <a href="#destination">DESTINATION</a></li>
+          <li class="hvr-underline-from-left crew-tab"><span>02</span> <a href="#crew">CREW</a></li>
+          <li class="hvr-underline-from-left technology-tab"><span>03</span> <a href="#technology">TECHNOLOGY</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- /*Home Container*/ -->
+    <section class="home-section" id="home">
+      <div class="home-content">
+        <div class="left-section">
+          <span class="p1"> So, you want to travel to </span>
+          <span class="bellefair p2">Space</span>
+          <span class="p3">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </span>
+        </div>
+        <div class="right-section">
+          
+            <div class="explore">
+              <a href="#">EXPLORE</a>
+            </div>
+            <div class="oval">
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="destination-section" id="destination">
+      <div class="des-heading weight">
+        <span class="me-2">01</span>
+        <span>PICK YOU DESTINATION</span>
+      </div>  
+      <div class="des-info">
+        <div class="info-img">
+          <img src="./assets/destination/image-moon.webp" class="des-info-img info-active" alt="">
+        </div>
+        <div class="info-content">
+          <div class="des-slidebar">
+            <ul>
+              <li class="slide-item  moon hvr-underline-from-left active">
+                <a data-linkindex="0">MOON</a>
+              </li>
+              <li class="slide-item mars hvr-underline-from-left">
+                <a data-linkindex="1">MARS</a>
+              </li>
+              <li class="slide-item europa hvr-underline-from-left">
+                <a data-linkindex="2">EUROPA</a>
+              </li>
+              <li class="slide-item tital hvr-underline-from-left">
+                <a data-linkindex="3">TITAL</a>
+              </li>
+            </ul>
+          </div>
+          <div class="des-info-content">
+            <span class="title bellefair">Moon</span>
+            <p class="text-content">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          </div>
+          <div class="line">
+          </div>
+          <div class="des-distance">
+            <div class="avg-distance">
+              <span class="distance-subheading mb-1">AVG. DISTANCE</span>
+              <span class="distance-value bellefair">384,400 KM</span>
+            </div>
+            <div class="travel-time">
+              <span class="distance-subheading mb-1">Est. travel time</span>
+              <span class="distance-value bellefair">3 days</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="crew-section" id="crew">
+      <div class="crew-title text-uppercase fw-bold">
+        <span class="me-2 text-muted ">02</span>
+        <span>Meet you crew</span>
+      </div>
+      <div class="crew">
+      <div class="crew-content">
+        <span class="text-uppercase bellefair">Commander</span>
+        <span class="text-uppercase commander-name bellefair mb-4">Douglas Hurley</span>
+        <span class="commander-info barlow">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</span>
+      </div>
+      <div class="crew-indicator-section">
+        <span class="crew-indicator indi-active me-3" data-indiIndex="0">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-circle fa-w-16 fa-3x"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" class=""></path></svg>
+        </span>
+        <span class="crew-indicator me-3" data-indiIndex="1">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-circle fa-w-16 fa-3x"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" class=""></path></svg>
+        </span>
+        <span class="crew-indicator me-3" data-indiIndex="2">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-circle fa-w-16 fa-3x"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" class=""></path></svg>
+        </span>
+        <span class="crew-indicator me-3" data-indiIndex="3">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-circle fa-w-16 fa-3x"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" class=""></path></svg>
+        </span>
+      </div>  
+      </div>
+      <div class="crew-photo-section">
+        <div class="img-tab">
+          <img src="./assets/crew/image-douglas-hurley.webp" class="crew-photo" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="technology-section" id="technology">
+      <div class="tech-title">
+        <span class="barlow fw-bold me-2">03</span>
+        <span class="barlow text-uppercase fw-bold">Space Lauch 101</span>
+      </div>
+      <div class="tech-content-section">
+        <div class="tech-indicator-section">
+          <a class="tech-indicator tech-active mb-5" data-techindex="0">1</a>
+          <a class="tech-indicator mb-5" data-techindex="1">2</a>
+          <a class="tech-indicator" data-techindex="2">3</a>
+        </div>
+        <div class="tech-content">
+          <span class="text-uppercase">THE TERMINOLOGY…</span>
+          <span class="tech-content-title bellefair my-3">LAUNCH VEHICLE</span>
+          <span class="tech-content-article">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</span>
+        </div>
+      </div>
+      <div class="tech-photo-section">
+        <img src="" class="tech-photo" alt="">
+      </div>
+    </section>
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
